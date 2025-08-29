@@ -914,7 +914,7 @@ Popular Categories
 
 .popular-categories .naccs .menu div.active,
 .popular-categories .naccs .menu div.active .thumb {
-  background-color: #2b2d42;
+  background-color: #232533;
 }
 
 .popular-categories ul.nacc {
@@ -951,7 +951,7 @@ Popular Categories
 }
 
 .popular-categories .nacc .thumb .left-text h4 {
-  color: #7dc77d;
+  color: #232533;
   font-size: 20px;
   font-weight: 700;
   line-height: 35px;
@@ -959,7 +959,7 @@ Popular Categories
 }
 
 .popular-categories .nacc .thumb .left-text p {
-  color: #7dc77d;
+  color: #232533;
   margin-bottom: 30px;
 }
 
