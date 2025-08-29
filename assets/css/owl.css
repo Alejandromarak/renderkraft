@@ -184,3 +184,21 @@
   z-index: 1;
   height: 100%;
   width: 100%; }
+.menu-container {
+  background-color: #232533; /* Gris del logo */
+  border-radius: 12px;
+  padding: 24px;
+}
+.menu-option {
+  color: #7dc77d; /* Verde del logo */
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 16px;
+  padding: 12px 0;
+  cursor: pointer;
+}
+.menu-description,
+.menu-title,
+.menu-detail {
+  color: #fff; /* Blanco para el resto del texto */
+}
