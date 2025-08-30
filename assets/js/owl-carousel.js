@@ -3446,3 +3446,14 @@
 	}
 
 })(window.Zepto || window.jQuery, window, document);
+$(document).ready(function(){
+  $('.gallery-slider').owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    animateOut: 'fadeOut',
+    dots: true,
+    nav: true
+  });
+});
