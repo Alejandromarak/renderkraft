@@ -2172,3 +2172,8 @@ responsive
 .menu-detail {
   color: #fff; /* Blanco para el resto del texto */
 }
+.gallery-slider img {
+  width: 100%;
+  height: 400px;     /* Cambia este valor si quieres otro alto */
+  object-fit: cover; /* Recorta la imagen si no coincide la proporción */
+}
