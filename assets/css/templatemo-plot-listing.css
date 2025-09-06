@@ -2197,9 +2197,13 @@ responsive
 .contenedor-imagen img {
   width: 100%;
   height: 100%;
-  object-fit: cover;   /* Esta propiedad ajusta la imagen y elimina espacio gris */
+  object-fit: cover;
+  transition: transform 0.4s ease; /* Animación suave */
 }
-.contenedor-imagen:hover {
-  transform: scale(1.1);
-  cursor: pointer;
+
+.contenedor-imagen:hover img {
+  transform: scale(1.2); /* El número 1.2 define el tamaño aumentado (20% más grande) */
+  z-index: 2; /* Opcional, para que la imagen quede arriba de otras */
+  box-shadow: 0 8px 25px rgba(0,0,0,0.20); /* Opcional, para resaltar más el zoom */
 }
+
