@@ -2235,8 +2235,8 @@ responsive
 }
 
 .foto-trabajo img {
-  width: 64px;
-  height: 64px;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 1px 4px #c2c2c2;
