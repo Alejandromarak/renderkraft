@@ -2184,8 +2184,8 @@ responsive
   justify-content: center;
 }
 .contenedor-imagen {
-  width: 800px;       /* Usa el ancho que prefieras */
-  height: 800px;      /* Usa el alto que prefieras */
+  width: 200px;       /* Usa el ancho que prefieras */
+  height: 100px;      /* Usa el alto que prefieras */
   overflow: hidden;   /* Evita que se vea el exceso */
   border-radius: 3px;
   background: #efefef;
@@ -2198,11 +2198,11 @@ responsive
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.4s ease; /* Animación suave */
+  transition: transform 0.8s ease; /* Animación suave */
 }
 
 .contenedor-imagen:hover img {
-  transform: scale(1.2); /* El número 1.2 define el tamaño aumentado (20% más grande) */
+  transform: scale(1.6); /* El número 1.2 define el tamaño aumentado (20% más grande) */
   z-index: 2; /* Opcional, para que la imagen quede arriba de otras */
   box-shadow: 0 8px 25px rgba(0,0,0,0.20); /* Opcional, para resaltar más el zoom */
 }
