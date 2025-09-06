@@ -2185,7 +2185,7 @@ responsive
 }
 .contenedor-imagen {
   width: 200px;       /* Usa el ancho que prefieras */
-  height: 200px;      /* Usa el alto que prefieras */
+  height: 400px;      /* Usa el alto que prefieras */
   overflow: hidden;   /* Evita que se vea el exceso */
   border-radius: 8px;
   background: #efefef;
