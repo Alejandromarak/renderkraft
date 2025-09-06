@@ -2206,4 +2206,39 @@ responsive
   z-index: 2; /* Opcional, para que la imagen quede arriba de otras */
   box-shadow: 0 8px 25px rgba(0,0,0,0.20); /* Opcional, para resaltar más el zoom */
 }
+.tarjeta-trabajo {
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;               /* Gris claro */
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px #e0e0e0;
+  margin-bottom: 24px;
+  font-family: sans-serif;
+}
+
+.nombre-trabajo {
+  flex: 1;
+  font-size: 1.5em;
+  color: var(--color-letras, #48d691); /* Verde claro, ajusta con variable */
+  font-weight: bold;
+  text-align: left;
+  margin-right: 12px;
+}
+
+.descripcion-trabajo {
+  flex: 2;
+  color: var(--color-letras, #48d691);
+  font-size: 1em;
+  text-align: center;
+  margin-right: 12px;
+}
+
+.foto-trabajo img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px #c2c2c2;
+}
 
