@@ -2184,10 +2184,10 @@ responsive
   justify-content: center;
 }
 .contenedor-imagen {
-  width: 200px;       /* Usa el ancho que prefieras */
-  height: 400px;      /* Usa el alto que prefieras */
+  width: 800px;       /* Usa el ancho que prefieras */
+  height: 200px;      /* Usa el alto que prefieras */
   overflow: hidden;   /* Evita que se vea el exceso */
-  border-radius: 8px;
+  border-radius: 3px;
   background: #efefef;
   box-shadow: 0 5px 12px rgba(0,0,0,0.15);
   display: flex;
