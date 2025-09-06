@@ -2183,23 +2183,22 @@ responsive
   gap: 10px;
   justify-content: center;
 }
-
 .contenedor-imagen {
-  border-radius: 3px;
-  overflow: hidden;
-  width: 340px;
-  height: 340px;
+  width: 200px;       /* Usa el ancho que prefieras */
+  height: 200px;      /* Usa el alto que prefieras */
+  overflow: hidden;   /* Evita que se vea el exceso */
+  border-radius: 8px;
   background: #efefef;
   box-shadow: 0 5px 12px rgba(0,0,0,0.15);
-  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 .contenedor-imagen img {
   width: 100%;
-  height: 50%;
-  object-fit: cover;
+  height: 100%;
+  object-fit: cover;   /* Esta propiedad ajusta la imagen y elimina espacio gris */
 }
-
 .contenedor-imagen:hover {
   transform: scale(1.1);
   cursor: pointer;
