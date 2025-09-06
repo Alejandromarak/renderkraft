@@ -2200,11 +2200,15 @@ responsive
   object-fit: cover;
   transition: transform 0.8s ease; /* Animación suave */
 }
-
+.contenedor-imagen:hover {
+  width: 180px;  /* Aumenta el tamaño del contenedor */
+  height: 180px;
+  cursor: pointer;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
 .contenedor-imagen:hover img {
-  transform: scale(1.6); /* El número 1.2 define el tamaño aumentado (20% más grande) */
-  z-index: 2; /* Opcional, para que la imagen quede arriba de otras */
-  box-shadow: 0 8px 25px rgba(0,0,0,0.20); /* Opcional, para resaltar más el zoom */
+  transform: none; /* Sin zoom en la imagen, solo cambia el tamaño contenedor */
+}
 }
 .tarjeta-trabajo {
   display: flex;
@@ -2230,7 +2234,7 @@ responsive
   flex: 2;
   color: var(--color-letras, #48d691);
   font-size: 1em;
-  text-align: center;
+  text-align: left;
   margin-right: 12px;
 }
 
