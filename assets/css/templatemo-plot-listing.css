@@ -2188,7 +2188,7 @@ responsive
   border-radius: 3px;
   overflow: hidden;
   width: 340px;
-  height: 240px;
+  height: 340px;
   background: #efefef;
   box-shadow: 0 5px 12px rgba(0,0,0,0.15);
   transition: 0.3s;
@@ -2196,7 +2196,7 @@ responsive
 
 .contenedor-imagen img {
   width: 100%;
-  height: 100%;
+  height: 50%;
   object-fit: cover;
 }
 
