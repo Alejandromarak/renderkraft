@@ -2258,13 +2258,15 @@ responsive
   align-items: center;
 }
 
-.lightbox img {
-  max-width: 90vw;
-  max-height: 80vh;
-  border-radius: 22px;
-  box-shadow: 0 6px 24px #000;
-  display: block;
-  margin: 0 auto;
+.galeria img {
+  width: 80px;     /* Tamaño pequeño de la galería */
+  height: 80px;
+  object-fit: cover;
+  border-radius: 9px;
+  box-shadow: 0 2px 5px #e0e0e0;
+  margin: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
 }
 
 .lightbox .cerrar {
@@ -2281,15 +2283,6 @@ responsive
 .lightbox .cerrar:hover {
   color: #48d691;
 }
-.galeria img {
-  width: 80px;     /* Tamaño pequeño de la galería */
-  height: 80px;
-  object-fit: cover;
-  border-radius: 9px;
-  box-shadow: 0 2px 5px #e0e0e0;
-  margin: 8px;
-  cursor: pointer;
-  transition: box-shadow 0.2s;
 }
 
 /* Mantén el lightbox grande para mostrar la imagen ampliada */
