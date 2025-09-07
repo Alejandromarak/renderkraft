@@ -2281,4 +2281,33 @@ responsive
 .lightbox .cerrar:hover {
   color: #48d691;
 }
+.galeria img {
+  width: 80px;     /* Tamaño pequeño de la galería */
+  height: 80px;
+  object-fit: cover;
+  border-radius: 9px;
+  box-shadow: 0 2px 5px #e0e0e0;
+  margin: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+/* Mantén el lightbox grande para mostrar la imagen ampliada */
+.lightbox {
+  display: none;
+  position: fixed;
+  left: 0; top: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(30, 30, 30, 0.85);
+  justify-content: center;
+  align-items: center;
+  z-index: 500;
+}
+
+.lightbox img {
+  max-width: 90vw;    /* Imagen grande */
+  max-height: 80vh;
+  border-radius: 22px;
+  box-shadow: 0 6px 24px #000;
+}
 
