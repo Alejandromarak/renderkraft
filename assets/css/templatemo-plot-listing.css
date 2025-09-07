@@ -2259,8 +2259,8 @@ responsive
 }
 
 .galeria img {
-  width: 80px;     /* Tamaño pequeño de la galería */
-  height: 80px;
+  width: 180px;     /* Tamaño pequeño de la galería */
+  height: 180px;
   object-fit: cover;
   border-radius: 9px;
   box-shadow: 0 2px 5px #e0e0e0;
@@ -2298,9 +2298,15 @@ responsive
 }
 
 .lightbox img {
-  max-width: 90vw;    /* Imagen grande */
-  max-height: 80vh;
+  width: auto;           /* Permite ajustar el ancho según la imagen */
+  height: auto;          /* Permite ajustar la altura según la imagen */
+  max-width: 90vw;       /* Limita el ancho máximo */
+  max-height: 80vh;      /* Limita la altura máxima */
   border-radius: 22px;
   box-shadow: 0 6px 24px #000;
+  display: block;
+  margin: 0 auto;        /* Centra la imagen */
+}
+
 }
 
