@@ -16580,3 +16580,12 @@ var tooltip = $.widget( "ui.tooltip", {
 
 
 }));
+function abrirLightbox(img) {
+  var lightbox = document.getElementById('lightbox');
+  var imagenGrande = document.getElementById('imagen-grande');
+  imagenGrande.src = img.src;
+  lightbox.style.display = "flex";
+}
+function cerrarLightbox() {
+  document.getElementById('lightbox').style.display = "none";
+}
