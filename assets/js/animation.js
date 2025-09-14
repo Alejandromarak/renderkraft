@@ -200,3 +200,13 @@ function abrirLightbox(img) {
 function cerrarLightbox() {
   document.getElementById('lightbox').style.display = "none";
 }
+let actual = 0;
+const imagenes = document.querySelectorAll('.fade-image');
+
+function siguienteImagen() {
+  imagenes[actual].classList.remove('active');
+  actual = (actual + 1) % imagenes.length;
+  imagenes[actual].classList.add('active');
+}
+
+setInterval(siguienteImagen, 3000); // Cambia cada 3 segundos
