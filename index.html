@@ -409,17 +409,8 @@ Anschlie√üend erhalten Sie die finale Visualisierung in der vereinbarten Qualit√
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/custom.js"></script>
   <script src="vendor/jquery/jquery.min.js"></script>
-let actual = 0;
-    const imagenes = document.querySelectorAll('.fade-image');
-
-    function siguienteImagen() {
-      imagenes[actual].classList.remove('active');
-      actual = (actual + 1) % imagenes.length;
-      imagenes[actual].classList.add('active');
-    }
-
-    setInterval(siguienteImagen, 3000); // Cambia cada 3 segundos
-    
+  <script src="script.js"></script>
+   
 </body>
 
 </html>
