@@ -116,8 +116,8 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 ul {
@@ -2264,7 +2264,7 @@ responsive
   object-fit: cover;
   border-radius: 9px;
   box-shadow: 0 2px 5px #e0e0e0;
-  margin: 8px;
+  margin: 24px;
   cursor: pointer;
   transition: box-shadow 0.2s;
 }
