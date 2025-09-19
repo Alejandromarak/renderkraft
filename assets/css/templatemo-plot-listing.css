@@ -2311,8 +2311,8 @@ responsive
 }
 .carrusel-fade {
   position: relative;
-  width: 300px; /* o el tamaño que necesites */
-  height: 180px;
+  width: 200px; /* o el tamaño que necesites */
+  height: 80px;
   overflow: hidden;
 }
 .fade-image {
