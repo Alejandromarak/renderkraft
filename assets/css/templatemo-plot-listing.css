@@ -2326,4 +2326,7 @@ responsive
 .fade-image.active {
   opacity: 1;
 }
+.espaciador {
+  height: 200px;
+}
 
