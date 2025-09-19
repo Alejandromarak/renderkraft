@@ -2327,7 +2327,7 @@ responsive
 .texto-personalizado {
   font-size: 15px;         /* Tamaño de letra */
   font-family: 'Arial', sans-serif; /* Tipo de letra, puedes cambiarlo por cualquier fuente */
-  color: #2a2a2a;          /* Color del texto en hexadecimal, nombre o rgb */
+  color: 144,146,150;          /* Color del texto en hexadecimal, nombre o rgb */
   line-height: 1.6;        /* Espaciado entre líneas, puedes usar 1.2, 1.5, etc. */
   text-align: left;     /* Justificación del texto */
 }
