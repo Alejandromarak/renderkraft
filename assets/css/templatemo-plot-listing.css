@@ -168,7 +168,7 @@ body {
 }
 
 .page-section {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .section-heading h2 {
@@ -854,12 +854,12 @@ Popular Categories
 */
 
 .popular-categories {
-  margin-top: 120px;
+  margin-top: 10px;
 }
 
 .popular-categories .section-heading {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 
 .popular-categories .naccs {
@@ -950,12 +950,12 @@ Popular Categories
   font-size: 20px;
   font-weight: 700;
   line-height: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .popular-categories .nacc .thumb .left-text p {
   color: #232533;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .popular-categories .nacc .thumb .right-image {
@@ -981,15 +981,15 @@ Recent Listing
 */
 
 .recent-listing {
-  margin-top: 120px;
-  padding-top: 120px;
-  margin-bottom: 120px;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
   border-top: 1px solid #eee;
 }
 
 .recent-listing .section-heading {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 
 .recent-listing .item .listing-item {
@@ -998,7 +998,7 @@ Recent Listing
   border-radius: 7px;
   width: 100%;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .recent-listing .item .left-image {
@@ -1022,7 +1022,7 @@ Recent Listing
 .recent-listing .item .right-content ul.rate {
   position: absolute;
   right: 60px;
-  top: 60px;
+  top: 10px;
 }
 
 .recent-listing .item .right-content ul.rate li {
@@ -1037,7 +1037,7 @@ Recent Listing
   font-size: 20px;
   color: #2a2a2a;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .recent-listing .item .right-content h6 {
@@ -1051,7 +1051,7 @@ Recent Listing
   font-size: 15px;
   margin-top: 30px;
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .recent-listing .item .right-content span.price .icon {
@@ -1073,7 +1073,7 @@ Recent Listing
 
 .recent-listing .item .right-content span.details {
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-size: 15px;
   color: #8d99af;
 }
@@ -1085,7 +1085,7 @@ Recent Listing
 
 .recent-listing .item .right-content ul.info li {
   display: inline-block;
-  margin-bottom: 15px;
+  margin-bottom: 05px;
   margin-right: 30px;
   width: 100%;
 }
@@ -1103,11 +1103,11 @@ Recent Listing
 .recent-listing .item .right-content .main-white-button {
   position: absolute;
   right: 60px;
-  bottom: 60px;
+  bottom: 10px;
 }
 
 .recent-listing .owl-dots {
-  margin-top: 15px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -1142,7 +1142,7 @@ footer h4 {
   font-size: 20px;
   font-weight: 700;
   color: #8d99af;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 footer p,
@@ -1152,7 +1152,7 @@ footer a {
 
 footer .logo img {
   max-width: 163px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 footer .helpful-links {
@@ -1161,7 +1161,7 @@ footer .helpful-links {
 
 footer .helpful-links ul li {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 footer .helpful-links ul li a {
@@ -1189,7 +1189,7 @@ footer .contact-us a:hover {
 
 footer .sub-footer {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 10px;
   padding: 40px 0px;
   border-top: 1px solid #eee;
 }
@@ -1235,7 +1235,7 @@ form#contact input {
   font-weight: 300;
   color: #8d99af;
   padding: 0px 15px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 form#contact ul li {
@@ -1376,7 +1376,7 @@ Category Post
 .category-post {
   overflow: hidden;
   margin-top: 0px;
-  margin-bottom: 120px;
+  margin-bottom: 10px;
 }
 
 .category-post .naccs {
@@ -1483,12 +1483,12 @@ Category Post
   font-size: 20px;
   font-weight: 700;
   line-height: 35px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .category-post .nacc .thumb .main-white-button {
   text-align: right;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .category-post .nacc .thumb .main-white-button a {
@@ -1502,20 +1502,20 @@ Category Post
 }
 
 .category-post .top-content {
-  margin-top: 80px;
-  padding-bottom: 60px;
+  margin-top: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #eee;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 
 .category-post .description {
-  padding-bottom: 60px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #eee;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 
 .category-post .general-info p {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .category-post .top-content .top-icon {
@@ -1576,13 +1576,13 @@ Listing Page
 
 
 .listing-page {
-  margin-top: 120px;
+  margin-top: 10px;
   margin-bottom: 120px;
 }
 
 .listing-page .section-heading {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 
 .listing-page .naccs {
@@ -1619,7 +1619,7 @@ Listing Page
   font-size: 15px;
   border-radius: 7px;
   background-color: #8d99af;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   height: 126px;
   text-align: left;
   padding: 0px 15px;
@@ -1672,7 +1672,7 @@ Listing Page
   border-radius: 7px;
   width: 100%;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .listing-page .item .left-image {
@@ -1722,7 +1722,7 @@ Listing Page
   font-size: 20px;
   color: #2a2a2a;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .listing-page .item .right-content h6 {
@@ -1758,7 +1758,7 @@ Listing Page
 
 .listing-page .item .right-content span.details {
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-size: 15px;
   color: #8d99af;
 }
@@ -1971,7 +1971,7 @@ responsive
     border-radius: 7px;
   }
   .listing-page .naccs .menu {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   .popular-categories .nacc .thumb .left-text {
     margin: 30px;
