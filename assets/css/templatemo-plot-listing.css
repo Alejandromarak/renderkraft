@@ -2367,4 +2367,13 @@ section {
   height: 400px;
   padding: 20px;
 }
+h2, h4, h6 {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+p, .texto-personalizado {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
 
