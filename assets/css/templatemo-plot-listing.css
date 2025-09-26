@@ -2331,4 +2331,40 @@ responsive
   line-height: 1.6;        /* Espaciado entre líneas, puedes usar 1.2, 1.5, etc. */
   text-align: left;     /* Justificación del texto */
 }
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #909296; /* color normal */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #5a9bd4;
+  font-size: 20px;
+  transform: scale(1.1);
+  color: #ABE555; /* color al pasar el mouse */
+}
+
+section {
+  height: 400px;
+  padding: 20px;
+}
 
