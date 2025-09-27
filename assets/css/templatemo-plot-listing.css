@@ -981,15 +981,15 @@ Recent Listing
 */
 
 .recent-listing {
-  margin-top: 10px;
-  padding-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  padding-top: 5px;
+  margin-bottom: 5px;
   border-top: 1px solid #eee;
 }
 
 .recent-listing .section-heading {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .recent-listing .item .listing-item {
@@ -998,7 +998,7 @@ Recent Listing
   border-radius: 7px;
   width: 100%;
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
 }
 
 .recent-listing .item .left-image {
@@ -1022,7 +1022,7 @@ Recent Listing
 .recent-listing .item .right-content ul.rate {
   position: absolute;
   right: 60px;
-  top: 10px;
+  top: 5px;
 }
 
 .recent-listing .item .right-content ul.rate li {
@@ -1037,7 +1037,7 @@ Recent Listing
   font-size: 20px;
   color: #2a2a2a;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .recent-listing .item .right-content h6 {
@@ -1051,7 +1051,7 @@ Recent Listing
   font-size: 15px;
   margin-top: 10px;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .recent-listing .item .right-content span.price .icon {
@@ -1103,11 +1103,11 @@ Recent Listing
 .recent-listing .item .right-content .main-white-button {
   position: absolute;
   right: 60px;
-  bottom: 10px;
+  bottom: 5px;
 }
 
 .recent-listing .owl-dots {
-  margin-top: 10px;
+  margin-top: 5px;
   text-align: center;
 }
 
@@ -1938,16 +1938,16 @@ responsive
   }
   .recent-listing .item .right-content h4,
   .listing-page .item .right-content h4 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   .recent-listing .item .right-content .main-white-button,
   .listing-page .item .right-content .main-white-button {
     left: 30px;
-    bottom: -30px;
+    bottom: 5px;
   }
   .recent-listing .item .right-content span.price,
   .listing-page .item .right-content span.price {
-    margin-top: 15px;
+    margin-top: 5px;
   }
   .recent-listing .item .right-content ul.rate,
   .listing-page .item .right-content ul.rate {
@@ -1956,7 +1956,7 @@ responsive
   }
   .recent-listing .item .right-content span.details,
   .listing-page .item .right-content span.details {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
 }
 
@@ -2006,17 +2006,17 @@ responsive
   }
   .recent-listing .item .right-content ul.rate,
   .listing-page .item .right-content ul.rate {
-    top: 20px;
+    top: 5px;
   }
   .recent-listing .item .right-content .main-white-button,
   .listing-page .item .right-content .main-white-button {
     position: relative;
     left: 0px;
     bottom: 0px;
-    margin-top: 10px;
+    margin-top: 6px;
   }
   .recent-listing .item .right-content h4 {
-    margin-top: 10px;
+    margin-top: 5px;
   }
   footer {
     text-align: center;
